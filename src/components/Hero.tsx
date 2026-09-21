@@ -61,6 +61,23 @@ export function Hero() {
               </li>
             ))}
           </ul>
+
+          {/* Accreditation badge */}
+          <div className="mt-6 inline-flex items-center gap-3 rounded-lg border border-surface-foreground/15 bg-surface-foreground/5 px-4 py-3 backdrop-blur-sm">
+            <img
+              src="/images/idp-logo.jpeg"
+              alt="IDP Accredited"
+              className="h-8 w-auto"
+              width={96}
+              height={32}
+              loading="lazy"
+              decoding="async"
+            />
+            <div className="h-8 w-px bg-surface-foreground/20" aria-hidden="true" />
+            <p className="text-sm font-medium text-surface-foreground/85">
+              IDP Accredited Test Centre
+            </p>
+          </div>
         </div>
       </div>
 
