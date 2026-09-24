@@ -8,6 +8,7 @@ const galleryWorkstation = "/images/gallery-workstation.jpeg";
 const galleryLounge = "/images/gallery-lounge.jpeg";
 const galleryBooths = "/images/gallery-booths.jpeg";
 const galleryWaiting = "/images/gallery-waiting.jpeg";
+const buildImg = "/images/location-yaba2.jpeg"
 
 export const HERO_IMAGE = "/images/hero-exam-hall.jpeg";
 const heroImg = HERO_IMAGE;
@@ -18,9 +19,9 @@ const heroImg = HERO_IMAGE;
  */
 
 export const PLACEHOLDER = {
-  phone: "+234 000 000 0000", // TODO: real phone number
-  phoneHref: "tel:+2340000000000", // TODO
-  whatsapp: "https://wa.me/2340000000000", // TODO
+  phone: "+234 807 669 9727", // TODO: real phone number
+  phoneHref: "tel:+2348076699727", // TODO
+  whatsapp: "https://wa.me/2348076699727", // TODO
   email: "info@befittinghub.com",
 } as const;
 
@@ -162,7 +163,7 @@ export const LOCATIONS: Location[] = [
     id: "festac",
     name: "Befitting Hub Festac",
     city: "Festac, Lagos",
-    address: "Address to be confirmed — Festac, Lagos, Nigeria", // TODO
+    address: "Festac, Lagos, Nigeria", // TODO
     hours: "8 am - 6 pm", // TODO
     services: ["Examination centre", "Coworking space", "Meeting areas"],
     highlights: [
@@ -251,7 +252,7 @@ export const GALLERY: GalleryItem[] = [
     category: "Facilities",
   },
   {
-    src: festacImg,
+    src: buildImg,
     alt: "Exterior of the Befitting Hub building in Lagos",
     category: "Our Building",
   },
